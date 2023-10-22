@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: IDP
+  name: idp
   labels:
-    app: IDP
+    app: idp
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: IDP
+      app: idp
   template:
     metadata:
       labels:
-        app: IDP
+        app: idp
     spec:
       containers:
         - name: IDP
