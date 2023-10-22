@@ -14,7 +14,7 @@ const HOST = '0.0.0.0';
 const OS = require('os');
 const ENV = 'DEV';
 
-x
+
 // App
 const app = express();
 app.get('/', (req, res) => {
