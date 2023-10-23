@@ -19,7 +19,7 @@ const ENV = 'DEV';
 const app = express();
 app.get('/', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from IDP team, this was awesome';
+  const msg = 'Hello from IDP team, this is awesome';
   res.send(getPage(msg));
 });
 
